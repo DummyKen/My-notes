@@ -1,0 +1,95 @@
+<<<<Notes of Git vid from Brad>>>>
+Here we go
+
+--lost the manually written papers so here I go again. 
+
+>>Git - Distributed/Decentralized Version Control System(VCS)
+    >Coordinates work between multiple developers
+    >Who made changes and when
+    >revert back at any time
+    >Local & remote repositories(github,bitbucket)
+
+>>Concepts:
+    >Keeps track of code history
+    >Takes 'snashots' of files(when commit)
+    >I can visit any snapshot at any time
+    >I can stage files before committing(add)
+    >When one committed, others can pull that and work on that.
+
+>>Syntax & things:
+
+git init        //initialize Local Git Repository
+git add         //add files(s) to Index(staging area)
+git status      //Check status of working tree(files)
+git commit      //Commit changes in Index
+
+git push        //Push to remote repository
+git pull        //Pull latest from remote repository(when someone made changes to the file(s))
+git clone       //Clone Repository Into a new local repository 
+.               //all files
+
+
+<<-----Practice----->>
+-We can use it on both Git bash and terminal.
+-I can work on the FM's challenge I am doing.(stats card). Nope I will just set it up in My HULUclone folder.
+
+-We can use 'touch' to create files(from bash) inside folders.
+
+>>Configuring Git(adding name and email):
+>git config --global user.name 'name'
+>git config --global user.email 'mail'
+
+>>Removing the files from staging area:
+git rm --cached file(.-all files)
+
+>>'*' means whatever word or file name--> git add *.html(add all html files into staging area.)
+
+>>git add . --> add every file into staging area.
+
+>>When we commit, it will open up an editor window in which we can write the logs(or commit logs(what's changed)), and only after we close that file will the changes be committed.
+
+>>To avoid having to add things in the editor, we can use:
+>>git commit -m 'comment' (the same process but simpler)
+
+>>Ignoring the certain files by adding them into '.gitignore'
+>touch .gitignore(created gitignore)
+>Just add the file name in the gitignore to ignore that file.
+>We can add an entire folder as well.(just add them to the gitignore(included path tho))
+
+>>Branches
+
+-Instead of committing and pushing directly into the main, we can make branches in which we will store the files and changes until it's finished. 
+-The main branch is called 'master'. We can see that when we see 'git status' or smth.
+
+>>Creating a branch
+--
+>git branch 'branchname'
+
+>>Changing branches
+
+>git checkout 'branchname' (git checkout login)
+(whatever files/changes we commit in this branch will be just in here, and not anywhere else.)
+
+>>Merging branches(go into master)
+
+>git merge 'branchname' -- put in merge logs
+(When no new files, will say 'Already up to date'.)
+
+>>>REMOTE repositories
+>Create new Repository
+>Just follow the instructions displayed on Github lol.(please work this time)
+(The hulu clone is already pushed '3 frick)
+(will do the stats thing)
+Yes finally I can do it. Woooooooooo. Its in the branch main finally!!!!!
+
+Then if we want to add a file, add and just push it and it will be pushed to github.
+
+If we want to clone using the link provided or download in zip if we wanna use others repository. That will make life easier.
+
+>>git clone 'link'
+
+Finally, thank you so much Brad. From now on, whenever I think of starting a project, I will be sure to use all these.
+
+
+
+
