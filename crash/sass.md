@@ -50,7 +50,7 @@ nav{
 ---  
 ### Mixins and Functions
 ---
-### Inheritance
+### Inheritance(*extending*)
 >Using `@extend` property, we can just copy one element's properties into another one and modify that later one. Example:
 ```scss
 #message {
@@ -70,10 +70,14 @@ nav{
 ```
 ---
 ### Operators
+We can use operators to perform operations just like in every other programming languages.
 ---
 ### Conditionals
+if, else of course. Style like if this;style like that else.
 ---
 
 ## Jumping in ---
+
+sasswebsite(folder)/
 
 
