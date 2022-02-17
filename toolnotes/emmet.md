@@ -62,3 +62,4 @@ Or to be simpler, we can use group operators, parenthesises as well.
 ```
 <!-- The sample -->
 <!-- (header>h2(heading)+nav>ol>li*5>a{link $}) -->
+```

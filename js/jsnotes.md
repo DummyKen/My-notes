@@ -274,6 +274,34 @@ console.log(total);
 ## Mosh's vid ends here. Will move on to sequel vids lol
 
 ---
+# Extra vids
+## Arrays
+Array []
+- We can modify or add more elements to the arrays just like that:
+```javascript
+let arr = [1,2];
+arr[2] = 4;
+console.log(arr);//[1,2,4]
+```
+---
+## Functions
+
+---
+## strings
+
+---
+## If else
+Syntax:
+```javascript
+if(condition)
+    statement
+else(){
+    statement1
+    statement2
+}
+```
+---
+## Loops
 
 
 

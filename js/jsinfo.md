@@ -190,3 +190,61 @@ Example:
 alert("6"/"3"); //3 | strings are converted to numbers automatically
 ```
 
+---
+## Basic Operators / Maths
+- Unary = single operand operation
+```javascript
+let x = 13;
+x = -x;
+```
+- Binary = two operands operation
+```javascript
+let x = 2;
+let y = 3;
+return x +y;
+```
+- Exponentiation is the same as Python `**`.
+  - So we can find square root and other more roots using this expo operator.
+```javascript
+// sqrt of 23344
+return 23344 ** 1/2;
+```
+- `+` will concantinate strings.
+  - **If one of the operands is a string, the other one will get converted to string as well.**
+
+- We can chain the assignment statements:
+```javascript
+let a,b,c;
+a = b = c = 29+30;
+console.log(a);//59
+console.log(b);//59
+console.log(c);//59
+```
+- We can increment in `C` style:
+```javascript
+let count = 2;
+count++;
+console.log(count);//3
+```
+Or even:
+```javascript
+let count = 34;
+++count;
+console.log(count);//35
+```
+
+### Rare but not extinct operators
+- Bitwise Operators
+   1. AND(&)
+   2. OR(|)
+   3. XOR(^)
+   4. NOT(~)
+   5. LEFT SHIFT(<<)
+   6. RIGHT SHIFT(>>)
+   7. ZERO-FILL RIGHT SHIFT(>>>)
+- Comma operator
+
+---
+## Comparisons
+- When comparing strings, JS compares them letter by letter and it comes down to `ASCII` code.
+- When comparing two different types, JS will convert both to numbers. (*Exclude strict equality*)
